@@ -40,13 +40,6 @@ public class Blackjack {
 
   public static void main(String[] args) {
 
-	  for(int i = 1; i<=13;i++){
-      Hand abc = new Hand();
-      abc.add(new Card(1,10));
-      abc.add(new Card(1,i));
-      System.out.println(abc.handValue());
-    }
-
     final int MAX_GAMES = 10000;  // number of games to play
     Deck deck = new Deck();
 
